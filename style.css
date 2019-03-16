@@ -8,8 +8,8 @@ header{
 }
 /*Team*/
 .team{
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top:80px;
+    margin-bottom:80px;
     text-align:center;
 }
 .team img{
@@ -17,6 +17,25 @@ header{
     height:250px;
     /*Object fit will crop and center image based on width and height*/
     object-fit:cover;
-    border-radius:50%;
+    border-radius:150%;
     margin-bottom:50px;
+}
+.Upcoming events.html{
+    body style=background-color:#FF0000;
+}
+.aboutus {
+    text-align: center;
+}
+.stats{
+    text-align: center;
+}
+body{
+    background-color: orange;
+}
+h5{
+    font-style: italic;
+}
+.partners span{
+    width:200px;
+    display: inline-block;
 }
