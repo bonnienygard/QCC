@@ -1,0 +1,22 @@
+header{
+    height:600px;
+    width:100%;
+    background-image: url("background.jpg");
+    background-size:cover;
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+}
+/*Team*/
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align:center;
+}
+.team img{
+    width:250px;
+    height:250px;
+    /*Object fit will crop and center image based on width and height*/
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:50px;
+}
