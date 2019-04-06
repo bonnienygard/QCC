@@ -1,5 +1,5 @@
 header{
-    height:600px;
+    height:750px;
     width:100%;
     background-image: url("background.jpg");
     background-size:cover;
@@ -53,4 +53,7 @@ h5{
 .partners span{
     width:200px;
     display: inline-block;
+}
+.getinvolved{
+    text-align: center;
 }
