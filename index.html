@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Boilerplate Snippet</title>
+    <title>QCC Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <!--googlefont-->
@@ -21,12 +21,12 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="#">Team</a>
-                <a class="nav-item nav-link" href="#">Partners</a>
+                <a class="nav-item nav-link" href="team&partners.html #team">Team</a>
+                <a class="nav-item nav-link" href="team&partners.html #partners">Partners</a>
                 <a class="nav-item nav-link" href="services.html">Services</a>
-                <a class="nav-item nav-link" href="#">Events</a>
-                <a class="nav-item nav-link" href="#">Donate</a>
-                <a class="nav-item nav-link" href="#footer">Contact Us</a>
+                <a class="nav-item nav-link" href="#stats">Statistics</a>
+                <a class="nav-item nav-link" href="#donate">Donate</a>
+                <a class="nav-item nav-link" href="services.html #footer">Contact Us</a>
             </div>
         </div>
     </nav>
@@ -65,7 +65,7 @@
     <hr>
     <!--end about section-->
     <!--start Statistics-->
-    <section class="stats">
+    <section class="stats container" id="stats">
         <h2>Statistics</h2>
         <br>
         <div class="row">
@@ -75,110 +75,60 @@
                 <h6>Queens is a melting pot founded on the determination of immigrants from around the world.</h6>
             </div>
             <div class="col-md-4">
-                <img src="stattwo.jpg">
+                <img src="stattwo.jpg" style="width:300px;height:300px;">
                 <hr>
                 <h6>Queens is the most diverst borough in all of New York City.</h6>
-                <i class="far fa-heart"></i>
             </div>
             <div class="col-md-4">
-                <img src="statthree.jpg">
+                <img src="statthree.jpg" style="width:300px;height:300px;">
                 <hr>
                 <h6>Through our cultural center, we hope to be able to share and celebrate the many different nationalities in our Queens community.</h6>
-                <i class="far fa-building"></i>
             </div>
         </div>
         </br>
     </section>
     <!--end statistics-->
     <hr>
-    <!-- begin team section ------- -->
-    <section id="team" class="team container">
-        <h1> Team </h1>
-        <div class="row">
-            <!-- first panel ------- -->
-            <div class="col-md-3">
-                <img src="woman1.jpg"></img>
-                <h2>Gina Johnson</h2>
-                <h3>Office Coordinator</h3>
-                <p>Since 2016 Gina has been our office superhero. She handles all our in-office happenings, and directly works with our customers in customer service. Her friendly face is the first thing you see when you walk through the doors of the QCC.</p>
-            </div>
-            <!-- second panel -------- -->
-            <div class="col-md-3">
-                <img src="man1.jpg"></img>
-                <h2>Brad Mendes</h2>
-                <h3>Arts Activity Specialist</h3>
-                <p>Brad is one of our newer recruits to the team, but he is already such a big part of atmosphere in the center. He researches and coordinates all of our art,crafts, and fun activities based on the audience at all of our events.</p>
-            </div>
-            <!-- third panel --------- -->
-            <div class="col-md-3">
-                <img src="woman2.jpg"></img>
-                <h2>Sarah Mitchell</h2>
-                <h3>Events Coordinator</h3>
-                <p>Since 2017 Sarah has been working out event details, meeting with clients and partners, scouting and booking locations, and so much more. She is a huge part of what makes the QCC so successful in the Queens community.</p>
-            </div>
-            <!-- third panel --------- -->
-            <div class="col-md-3">
-                <img src="man2.jpg"></img>
-                <h2>Ron Jacobs</h2>
-                <h3>Finance Manager</h3>
-                <p>Ron has a lot of responsibility within the organization, but he handles it amazingly! He's been with us since 2017 and cares for the financial health of the center, he produces financial reports, and develops strategies and plans for our
-                    long-term financial goals.</p>
-            </div>
-        </div>
-    </section>
-    <!-- end team section ------------->
-    <hr>
-    <!-- begin partners section ----------- -->
-    <section id="partners" class="team container">
-        <h1> Partners </h1>
-        <div class="col-md-3">
-            <img src="partner 1.jpg"></img>
-            <h2> Queens Health Society </h2>
-            
-        </div>
-    </section>
-    <hr>
-    <!-- end partners section --------------->
     <!--begin get involved section-->
-    <section class="getinvolved">
-        <div class="container">
-            <br>
-            <h2>Get Involved</h2>
-            <br>
-            <div class="row">
-                <!--firstpanel-->
-                <div class="col-mg-4 col-lg-4">
-                    <div class="options">
-                        <i class="fas fa-globe-americas"></i>
-                        <h3>Explore</h3>
-                        <p>filler text</p>
-                        <button class="btn btn-lg btn-success">Visit</button>
-                    </div>
+    <section class="getinvolved container">
+        <br>
+        <h2>Get Involved</h2>
+        <br>
+        <div class="row">
+            <!--firstpanel-->
+            <div class="col-md-4 col-lg-4">
+                <div class="options">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3>Explore</h3>
+                    <p>Visit our services page to find out where to visit in your neighborhood or what programs fit your interests.</p>
+                    <button class="btn btn-lg btn-success">Visit</button>
                 </div>
-                <!--secondpanel-->
-                <div class="col-mg-4 col-lg-4">
-                    <div class="options">
-                        <i class="fas fa-hands-helping"></i>
-                        <h3>Volunteer</h3>
-                        <p>filler text</p>
-                        <button class="btn btn-lg btn-success">Sign Up</button>
-                    </div>
+            </div>
+            <!--secondpanel-->
+            <div class="col-md-4 col-lg-4">
+                <div class="options">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Volunteer</h3>
+                    <p>Our volunteer training programs are made to help out exploring new volunteer training approaches to increase volunteer retainment and effectiveness.</p>
+                    <button class="btn btn-lg btn-success">Sign Up</button>
                 </div>
-                <!--thirdpanel-->
-                <div class="col-mg-4 col-lg-4">
-                    <div class="options">
-                        <i class="fas fa-hand-holding-usd"></i>
-                        <h3>Contribute</h3>
-                        <p>filler text</p>
-                        <button class="btn btn-lg btn-success">Donate</button>
-                    </div>
+            </div>
+            <!--thirdpanel-->
+            <div class="col-md-4 col-lg-4">
+                <div class="options">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Contribute</h3>
+                    <p>There are many different ways to support Queens. Donate to our center so we can fund all the programs we run for your community. Proceeds go back to the community.</p>
+                    </p>
+                    <button class="btn btn-lg btn-success">Donate</button>
                 </div>
             </div>
         </div>
+
     </section>
     <!--end get involved section--><br>
     <!--begin contact section-->
-    <section class="contact container">
+    <section class="contact container" id="donate">
         <hr>
         <br>
         <h2>Donate</h2>
