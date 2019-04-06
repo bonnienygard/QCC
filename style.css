@@ -6,6 +6,9 @@ header{
     text-align: center;
     font-family:'Raleway', sans-serif;
 }
+.title{
+  text-shadow: 2px 2px 4px #000000;
+}
 /*Team*/
 .team{
     margin-top:80px;
@@ -25,9 +28,21 @@ header{
 }
 .aboutus {
     text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 .stats{
     text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.text{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 body{
     background-color: orange;

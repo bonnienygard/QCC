@@ -6,3 +6,9 @@ header{
     text-align: center;
     font-family:'Raleway', sans-serif;
 }
+p{
+    line-height: 2.5
+}
+body{
+    background-color: turquoise
+}
