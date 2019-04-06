@@ -8,10 +8,22 @@ header{
 }
 p{
     line-height: 2.5
+    font-family:'Raleway', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 body{
     background-color: turquoise
 }
 title{
      text-shadow: 2px 2px 4px #000000;
+}
+.container{
+    text-shadow: 2px 2px 4px #000000;
+}
+h5{
+    font-style: italic;
+}
+.services{
+    text-align: center;
 }
